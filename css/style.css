@@ -1,0 +1,235 @@
+@font-face {
+  font-family: PublicSans-Thin_Light;
+  src: url(../fonts/PublicSans-Thin.ttf);
+}
+@font-face {
+  font-family: PublicSans-Regular;
+  src: url(../fonts/PublicSans-Regular.ttf);
+}
+@font-face {
+  font-family: PublicSans-light;
+  src: url(../fonts/PublicSans-Light.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: PublicSans-Thin_Light;
+}
+body {
+  background-color: #fafafa;
+}
+.container {
+  padding: 25px 6.5%;
+}
+/* header */
+.top-header {
+  padding: 20px 6.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.items {
+  text-decoration: none;
+  color: #9597a5;
+  margin: 15px;
+  font-family: PublicSans-Regular;
+}
+.items:hover {
+  color: #2d314d;
+}
+.btn-header {
+  border: none;
+  background-color: #2d314d;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 20px;
+  font-family: PublicSans-light;
+}
+.btn-header:hover {
+  background-color: #30c88f;
+}
+/* section-char */
+.section-char {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 6%;
+}
+.char {
+  width: 600px;
+}
+.title {
+  font-size: 56px;
+  color: #2d314d;
+  margin-bottom: 14px;
+}
+.subject {
+  font-size: 18px;
+  color: #9597a5;
+  margin-bottom: 30px;
+  font-family: PublicSans-Regular;
+}
+.btn-section-char {
+  border: none;
+  background-color: #2d314d;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 20px;
+  font-family: PublicSans-light;
+}
+.btn-section-char:hover {
+  background-color: #30c88f;
+}
+/* section-icons */
+.section-icons {
+  padding: 50px 6.5%;
+  padding-bottom: 6%;
+  background-color: #f4f5f7;
+}
+.boxs-section-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.items-box {
+  margin-left: 10px;
+}
+.fa-solid {
+  background-color: #2d314d;
+  width: 77px;
+  height: 75px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 20px 20px;
+  border-radius: px;
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.title-box {
+  color: #2d314d;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.subject-box {
+  font-family: PublicSans-Regular;
+  color: #9597a5;
+}
+.title-section-icons {
+  font-weight: bold;
+}
+.subject-section-icons {
+  color: #9597a5;
+  font-family: PublicSans-Regular;
+}
+/* section-picture */
+.section-picture {
+  padding: 50px 6.5%;
+}
+.top-section-picture {
+  margin-top: 7%;
+}
+.boxs-section-picture {
+  display: flex;
+  justify-content: space-between;
+}
+.items-box-picture {
+  background-color: #fff;
+  border-radius: 9px;
+}
+.title-section-icons {
+  margin-bottom: 32px;
+  color: #2d314d;
+  font-size: 35px;
+}
+.picture {
+  margin-bottom: 16px;
+  width: 100%;
+  height: 55%;
+}
+.txt-picture {
+  padding: 20px 20px;
+}
+.head-picture {
+  font-size: 11px;
+  color: #9597a5;
+  margin-bottom: 10px;
+  font-family: PublicSans-Regular;
+}
+.title-picture {
+  font-size: 16px;
+  color: #2d314d;
+  margin-bottom: 8px;
+}
+.subject-picture {
+  font-family: PublicSans-Regular;
+  color: #9597a5;
+}
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d314d;
+  padding: 3% 6.5%;
+  margin-top: 6.5%;
+}
+.part-footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.part-footer-center {
+  display: flex;
+  padding-right: 17%;
+}
+.part-footer-center .items-footer {
+  margin-bottom: 20px;
+}
+.part-footer-rghit {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.icon-sochial {
+  margin-top: 40px;
+}
+.logo-footer {
+  width: 115px;
+}
+.fa-brands {
+  color: #fff;
+  margin: 4.5px;
+}
+.items-footer {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  margin: 50px;
+}
+.items-footer:hover {
+  color: #30c88f;
+}
+.menu p {
+  margin-bottom: 10px;
+}
+.btn-footer {
+  border: none;
+  background-color: #30c88f;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 20px;
+  margin-bottom: 35px;
+  font-family: PublicSans-light;
+}
+.btn-footer:hover {
+  background-color: #43e4a9;
+}
+.link-footer {
+  font-size: 15px;
+  color: #fff;
+  font-family: PublicSans-Regular;
+  color: #9597a5;
+}
